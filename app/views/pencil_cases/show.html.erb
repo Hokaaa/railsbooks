@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Pencil case:</strong>
+  <%= @pencil_case.pencil_case_id %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @pencil_case.description %>
+</p>
+
+<p>
+  <strong>Price:</strong>
+  <%= @pencil_case.price %>
+</p>
+
+<%= link_to 'Edit', edit_pencil_case_path(@pencil_case) %> |
+<%= link_to 'Back', pencil_cases_path %>

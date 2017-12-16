@@ -1,0 +1,31 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Pencil Cases</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Pencil case</th>
+      <th>Description</th>
+      <th>Price</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @pencil_cases.each do |pencil_case| %>
+      <tr>
+        <td><%= pencil_case.pencil_case_id %></td>
+        <td><%= pencil_case.description %></td>
+        <td><%= pencil_case.price %></td>
+        <td><%= link_to 'Show', pencil_case %></td>
+        <td><%= link_to 'Edit', edit_pencil_case_path(pencil_case) %></td>
+        <td><%= link_to 'Destroy', pencil_case, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Pencil Case', new_pencil_case_path %>

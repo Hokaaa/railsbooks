@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Pen:</strong>
+  <%= @pen.pen_id %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @pen.description %>
+</p>
+
+<p>
+  <strong>Price:</strong>
+  <%= @pen.price %>
+</p>
+
+<%= link_to 'Edit', edit_pen_path(@pen) %> |
+<%= link_to 'Back', pens_path %>

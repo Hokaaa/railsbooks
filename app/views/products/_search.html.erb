@@ -1,0 +1,5 @@
+<%= form_tag("/search", :method => "post") do %> <!--method for submitting data-->
+<%= label_tag(:q, "Search for Product") %> <!--text field in search-->
+<%= text_field_tag(:q) %>
+<%= submit_tag("Search") %> <!--submit button-->
+<% end %>

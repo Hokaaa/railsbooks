@@ -1,0 +1,31 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Pencils</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Pencil</th>
+      <th>Description</th>
+      <th>Price</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @pencils.each do |pencil| %>
+      <tr>
+        <td><%= pencil.pencil_id %></td>
+        <td><%= pencil.description %></td>
+        <td><%= pencil.price %></td>
+        <td><%= link_to 'Show', pencil %></td>
+        <td><%= link_to 'Edit', edit_pencil_path(pencil) %></td>
+        <td><%= link_to 'Destroy', pencil, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Pencil', new_pencil_path %>

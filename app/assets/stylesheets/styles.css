@@ -1,0 +1,159 @@
+/* CSS Document */
+body{padding:0px; margin:0px; background:#0f1110; color:#6f6f6f; font:10px/14px Tahoma, sans-serif;}
+div, p, ul, h2, h3, h4, img{padding:0px; margin:0px;}
+ul{list-style-type:none;}
+
+/* TOP PANEL */
+
+/* TOP1 */
+
+#mainTop1{height:133px; width:745px; background:url(../images/back_top.jpg) 0 0 no-repeat; margin:0 auto; margin-top:14px; position:relative; padding:0px;} 
+#mainTop1 ul {width:457px; height:13px; position:absolute; top:104px; left:26px; background:url(../images/back_btn.jpg) 0 0 no-repeat;}
+#mainTop1 ul li{float:left}
+
+#mainTop1 ul li.home{width:69px; height:13px; margin-right:24px}
+#mainTop1 ul li.home a{width:69px; height:13px; display:block; background:url(../images/01.home.jpg) 0 0 no-repeat; text-indent:-20000px;}
+#mainTop1 ul li.home a:hover{width:69px; height:13px; background:url(../images/01.home-over.jpg) 0 0 no-repeat;}
+
+#mainTop1 ul li.new{width:93px; height:13px; margin-right:24px}
+#mainTop1 ul li.new a{width:93px; height:13px; display:block; background:url(../images/02.newprod.jpg) 0 0 no-repeat; text-indent:-20000px;}
+#mainTop1 ul li.new a:hover{width:93px; height:13px; background:url(../images/02.newprod-over.jpg) 0 0 no-repeat;}
+
+#mainTop1 ul li.specials{width:58px; height:13px; margin-right:24px}
+#mainTop1 ul li.specials a{width:58px; height:13px; display:block; background:url(../images/03.specials.jpg) 0 0 no-repeat; text-indent:-20000px;}
+#mainTop1 ul li.specials a:hover{width:58px; height:13px; background:url(../images/03.specials-over.jpg) 0 0 no-repeat;}
+
+#mainTop1 ul li.account{width:78px; height:13px; margin-right:24px}
+#mainTop1 ul li.account a{width:78px; height:13px; display:block; background:url(../images/04.account.jpg) 0 0 no-repeat; text-indent:-20000px;}
+#mainTop1 ul li.account a:hover{width:78px; height:13px; background:url(../images/04.account-over.jpg) 0 0 no-repeat;}
+
+#mainTop1 ul li.contacts{width:63px; height:13px;}
+#mainTop1 ul li.contacts a{width:63px; height:13px; display:block; background:url(../images/05.contacts.jpg) 0 0 no-repeat; text-indent:-20000px;}
+#mainTop1 ul li.contacts a:hover{width:63px; height:13px; background:url(../images/05.contacts-over.jpg) 0 0 no-repeat;}
+
+#mainTop1 ul.logo {width:240px; height:60px; position:absolute; top:17px; left:19px; background: none;}
+#mainTop1 ul.logo li{width:240px; height:60px;}
+#mainTop1 ul.logo li a{width:240px; height:60px; display:block; text-indent:-20000px;}
+#mainTop1 ul.logo li a:hover{width:240px; height:60px;}
+
+/* TOP2 */
+
+#mainTop2{height:9px; width:745px; background:url(../images/back_top2.jpg) 0 0 no-repeat; margin:0 auto; padding:0px; clear:both} 
+
+
+/* TOP3 */
+
+#mainTop3{height:137px; width:745px; background:url(../images/back_offer.jpg) 0 0 no-repeat; margin:0 auto; position:relative; padding:0px; clear:both} 
+
+#mainTop3 img{height:26px; width:131px; position:absolute; top:52px; left:28px;}
+
+#mainTop3 ul {width:262px; position:absolute; top:106px; left:18px;}
+#mainTop3 ul li{float:left; font:10px/12px Tahoma, Arial, Helvetica, sans-serif; font-weight:normal; color:#636363; padding-top:2px; padding-right:8px;}
+
+#mainTop3 ul li.english{width:26px; height:18px; margin-right:14px; padding:0}
+#mainTop3 ul li.english a{width:26px; height:18px; display:block; background:url(../images/eng.jpg) 0 0 no-repeat; text-indent:-20000px;}
+
+#mainTop3 ul li.german{width:26px; height:18px; margin-right:14px;  padding:0}
+#mainTop3 ul li.german a{width:26px; height:18px; display:block; background:url(../images/ger.jpg) 0 0 no-repeat; text-indent:-20000px;}
+
+#mainTop3 ul li.spanish{width:26px; height:18px; margin-right:32px;  padding:0}
+#mainTop3 ul li.spanish a{width:26px; height:18px; display:block; background:url(../images/spa.jpg) 0 0 no-repeat; text-indent:-20000px;}
+
+#mainTop3 ul li.bullet{width:9px; background:url(../images/bullet2.jpg) 0 5px no-repeat; padding:0}
+
+
+#mainTop3 ul.currency {	width:200px; height:25px; position:absolute; top:104px; left:303px;}
+#mainTop3 ul.currency li{float:left;}
+
+#mainTop3 ul.currency li.currency_headline {font:10px/12px Tahoma, Arial, Helvetica, sans-serif; font-weight:normal; color:#636363; padding-top:4px; padding-right:8px; float:left}
+
+#mainTop3 ul.currency li.listmenu form{float:left; width:135px; height:18px; margin: 0;}
+#mainTop3 ul.currency li.listmenu form select{width:135px; height:18px; font:10px/12px Tahoma, Arial, Helvetica, sans-serif; color:#636363;}
+
+#mainTop3 ul.cart {width:78px; position:absolute; top:105px; left:655px;}
+#mainTop3 ul.cart li{width:61px; height:17px; background:url(../images/cart.jpg) 0 0 no-repeat; font:10px/12px Tahoma, Arial, Helvetica, sans-serif; font-weight:bold; color:#636363; padding-top:4px; padding-left:22px}
+
+/* MAINBODY1 */
+
+#mainBody1{width:745px; height:45px; background:url(../images/back_top_content.jpg) 0 0 no-repeat; margin:0 auto; margin-top:9px; position:relative; padding:0px; clear:both} 
+
+#mainBody1 ul{height:16px; position:absolute; top:16px; left:13px}
+#mainBody1 ul li{float:left}
+
+#mainBody1 ul li.head1{width:88px; height:16px; margin-right:107px;  background:url(../images/h.categories.jpg) 0 0 no-repeat;}
+#mainBody1 ul li.head2{width:118px; height:16px; margin-right:236px;  background:url(../images/h.featbooks.jpg) 0 0 no-repeat;}
+#mainBody1 ul li.head3{width:161px; height:16px; background:url(../images/h.info.jpg) 0 0 no-repeat;}
+
+#mainBody2{width:745px; padding:0; position:relative; margin: 0 auto; clear:both;}
+#mainBody22{float:left; background:#fff; width:745px;}
+
+#leftPan {width: 197px; float:left; margin-left: 16px; margin-top: 14px;}
+#leftPan ul {width:197px;}
+#leftPan ul li a{display:block; width:183px; height:20px; background:url(../images/bullet_m.jpg) 0 8px no-repeat; font:11px/20px Tahoma, Arial, Helvetica, sans-serif; color:#4d5611; font-weight:bold; text-decoration:none; padding:0 0 0 14px;}
+#leftPan ul li a:hover{text-decoration:underline; color:#000} 
+
+#middlePan {width:331px; float:left; margin-top: 14px; margin-right:27px; }
+#prod1 {width:331px; height:158px; background:url(../images/back_prod.jpg) 0 0 no-repeat; position:relative}
+#prod1 img{ width:84px; height:128px; position:absolute; top:10px; left:12px} 
+
+.text {width:220px; position:absolute; top:14px; left:111px;}
+.text a {font:12px/14px Tahoma, Arial, Helvetica, sans-serif; color:#666701; font-weight:bold; text-decoration:none}
+.text a:hover {color:#000; text-decoration:underline}
+.text p  {font:10px/14px Tahoma, Arial, Helvetica, sans-serif; color:#636363; font-weight:normal;}
+.text p span{font:10px/14px Tahoma, Arial, Helvetica, sans-serif; color:#636363; font-weight:bold;}
+
+#prod1 ul.price {width:220px; height:20px; position:absolute; top:70px; left:111px;}
+#prod1 ul.price li{float:left}
+#prod1 ul.price li.old {font:16px/14px Tahoma, Arial, Helvetica, sans-serif; color:#000; font-weight:bold; text-decoration:line-through; margin-right:15px}
+#prod1 ul.price li.current {font:16px/14px Tahoma, Arial, Helvetica, sans-serif; color:#70161a; font-weight:bold;}
+
+#prod1 ul.buttons {width:195px; height:25px; position:absolute; top:109px; left:111px;}
+#prod1 ul.buttons li{float:left}
+#prod1 ul.buttons li.lmore a {width:91px; height:25px; display:block; background:url(../images/btn_learnmore2.jpg) 0 0 no-repeat; text-indent:-20000px; margin-right:11px}
+#prod1 ul.buttons li.buy a {width:93px; height:25px; display:block; background:url(../images/btn_add.jpg) 0 0 no-repeat; text-indent:-20000px;}
+
+#prod2 {width:331px; height:158px; background:url(../images/back_prod.jpg) 0 0 no-repeat; position:relative}
+#prod2 img{ width:84px; height:128px; position:absolute; top:10px; left:12px} 
+
+#prod2 ul.price {width:220px; height:20px; position:absolute; top:70px; left:111px;}
+#prod2 ul.price li{float:left}
+#prod2 ul.price li.old {font:16px/14px Tahoma, Arial, Helvetica, sans-serif; color:#000; font-weight:bold; text-decoration:line-through; margin-right:15px}
+#prod2 ul.price li.current {font:16px/14px Tahoma, Arial, Helvetica, sans-serif; color:#70161a; font-weight:bold;}
+
+#prod2 ul.buttons {width:195px; height:25px; position:absolute; top:109px; left:111px;}
+#prod2 ul.buttons li{float:left}
+#prod2 ul.buttons li.lmore a {width:91px; height:25px; display:block; background:url(../images/btn_learnmore2.jpg) 0 0 no-repeat; text-indent:-20000px; margin-right:11px}
+#prod2 ul.buttons li.buy a {width:93px; height:25px; display:block; background:url(../images/btn_add.jpg) 0 0 no-repeat; text-indent:-20000px;}
+
+#prod3 {width:331px; height:158px; background:url(../images/back_prod.jpg) 0 0 no-repeat; position:relative}
+#prod3 img{ width:84px; height:128px; position:absolute; top:10px; left:12px} 
+
+#prod3 ul.price {width:220px; height:20px; position:absolute; top:70px; left:111px;}
+#prod3 ul.price li{float:left}
+#prod3 ul.price li.old {font:16px/14px Tahoma, Arial, Helvetica, sans-serif; color:#000; font-weight:bold; text-decoration:line-through; margin-right:15px}
+#prod3 ul.price li.current {font:16px/14px Tahoma, Arial, Helvetica, sans-serif; color:#70161a; font-weight:bold;}
+
+#prod3 ul.buttons {width:195px; height:25px; position:absolute; top:109px; left:111px;}
+#prod3 ul.buttons li{float:left}
+#prod3 ul.buttons li.lmore a {width:91px; height:25px; display:block; background:url(../images/btn_learnmore2.jpg) 0 0 no-repeat; text-indent:-20000px; margin-right:11px}
+#prod3 ul.buttons li.buy a {width:93px; height:25px; display:block; background:url(../images/btn_add.jpg) 0 0 no-repeat; text-indent:-20000px;}
+
+#rightPan {width:170px; float:left; margin-top:14px;}
+#rightPan ul{width:156px;}
+#rightPan ul li a{display:block; width:156px; height:21px; background:url(../images/bullet_m.jpg) 0 8px no-repeat; font:11px/21px Tahoma, Arial, Helvetica, sans-serif; color:#333333; font-weight:normal; text-decoration:underline; padding:0 0 0 14px;}
+#rightPan ul li a:hover{text-decoration:none; color:#d45615}
+
+#rightPan p { font:10px/14px Tahoma, Arial, Helvetica, sans-serif; color:#6f6f6f; font-weight:normal; padding:20px 10px 18px 0;}
+#rightPan p span {font:12px/14px Tahoma, Arial, Helvetica, sans-serif; color:#70161a; font-weight:bold;}
+#rightPan a { font:10px/14px Tahoma, Arial, Helvetica, sans-serif; color:#000; font-weight:normal; text-decoration:none;}
+#rightPan a:hover {color:#70161a}
+
+#mainBody3{width:745px; height:12px; background:url(../images/back_downcontent.jpg) 0 0 no-repeat; margin:0 auto; position:relative; padding:0px; clear:both} 
+
+#footer{width:745px; margin:0 auto; position:relative; padding:0px; clear:both} 
+#footer ul{width:500px; position:absolute; top:15px; left:145px; font:10px/16px Tahoma ,Arial, Helvetica, sans-serif; font-weight:normal; color:#fff}
+#footer ul li{float:left; font:10px/16px Tahoma, Arial, Helvetica, sans-serif; font-weight:normal; text-transform:uppercase; }
+#footer ul li a{padding:0 5px 0; color:#fff; text-decoration:none;}
+#footer ul li a:hover{text-decoration:underline;}
+
+#footer p{width:300px; position:absolute; top:40px; left:275px; font:10px/16px Tahoma ,Arial, Helvetica, sans-serif; font-weight:normal; color:#fff}

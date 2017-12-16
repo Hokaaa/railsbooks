@@ -1,0 +1,197 @@
+<!--<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">-->
+
+<!--<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+
+	<title>BookStore</title>
+
+	<link href="css/styles.css" rel="stylesheet" type="text/css" />
+
+</head>-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bookstore</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+
+<body>
+
+<div id="mainTop1">
+            <ul>
+				<li class="home"><a href="/">Home Page</a></li>
+				<li class="books"><a href="/books">Books</a></li>
+				<li class="specials"><a href="#">Specials</a></li>
+				<li class="account"><a href="#">My Account</a></li>
+				<li class="contacts"><a href="#">Contacts</a></li>
+			</ul>
+            
+            <ul class="logo">
+            	<li><a href="#">home</a></li>
+            </ul>
+</div>
+
+<div id="mainTop2"></div>
+
+<div id="mainTop3">
+<a href="#"><img src="assets/btn_learnmore.jpg" alt="Learn more" width="131" height="26" border="0" /></a>
+
+<ul>
+<li>Choose your language:</li>
+<li class="english"><a href="#">english</a></li>
+<li class="german"><a href="#">german</a></li>
+<li class="spanish"><a href="#">spanish</a></li>
+<li class="bullet"></li>
+</ul>
+
+<ul class="currency">
+<li class="currency_headline">Search</li>
+<li class="listmenu"><form action="" method="get"><select name="currency">
+  <option>Yen</option>
+  <option>Sterling</option>
+</select></form></li>
+</ul>
+
+<ul class="cart">
+<li>0 items</li>
+</ul>
+
+</div>
+
+<div id="mainBody1">
+<ul>
+<li class="head1"></li>
+<li class="head2"></li>
+<li class="head3"></li>
+</ul>
+</div>
+
+<div id="mainBody2">
+<div id="mainBody22">
+<div id="leftPan">
+
+<ul>
+<li><a href="/books">Books for Ordinary Level</a></li>
+<li><a href="/books">Books for Higher Level</a></li>
+<li><a href="/books">Irish books</a></li>
+<li><a href="#">English books</a></li>
+<li><a href="#">Maths books</a></li>
+<li><a href="#">History books</a></li>
+<li><a href="#">Geography books</a></li>
+<li><a href="#">Pencil cases</a></li>
+<li><a href="#">Pens</a></li>
+<li><a href="#">Pencils</a></li>
+<li><a href="#">Erasers</a></li>
+
+</ul>
+</div>
+
+<div id="middlePan">
+
+<%= render "products/search" %>
+<%= yield %>
+<!--<div id="prod1">
+<a href="#"><img src="assets/img1.jpg" alt="Learn more" border="0" /></a>
+
+<div class="text">
+<a href="#">Eat, Pray, Love</a>
+<p>by Elizabeth Gilbert</p>
+<p><span>(Paperback)</span></p>
+</div>
+
+<ul class="price">
+<li class="old">Euro</li>
+<li class="current">$ 7,59</li>
+</ul>
+
+<ul class="buttons">
+<li class="lmore"><a href="#">learn more</a></li>
+<li class="buy"><a href="#">buy now</a></li>
+</ul>
+
+</div>
+
+<div id="prod2">
+<a href="#"><img src="assets/img2.jpg" alt="Learn more" border="0" /></a>
+
+<div class="text">
+<a href="#">My Grandfather's Son</a>
+<p>by Clarence Thomas</p>
+<p><span>(Hardcover)</span></p>
+</div>
+
+<ul class="price">
+<li class="old">$ 15,99</li>
+<li class="current">$ 12,99</li>
+</ul>
+
+<ul class="buttons">
+<li class="lmore"><a href="#">learn more</a></li>
+<li class="buy"><a href="#">buy now</a></li>
+</ul>
+</div>
+
+<div id="prod3">
+<a href="#"><img src="assets/img3.jpg" alt="Learn more" border="0" /></a>
+
+<div class="text">
+<a href="#">The Day of Battlet</a>
+<p>by Rick Atkinson</p>
+<p><span>(Hardcover)</span></p>
+</div>
+
+<ul class="price">
+<li class="old">$ 9,50</li>
+<li class="current">$ 8,39</li>
+</ul>
+
+<ul class="buttons">
+<li class="lmore"><a href="#">learn more</a></li>
+<li class="buy"><a href="#">buy now</a></li>
+</ul>
+</div>-->
+
+</div>
+
+<div id="rightPan">
+
+<ul>
+<li><a href="#">Shipping &amp; Returns</a></li>
+<!--<li><a href="#">Gift Cards</a></li>
+<li><a href="#">Order Tracking</a></li>-->
+<li><a href="#">Privacy Notice</a></li>
+<li><a href="#">Conditions of Use</a></li>
+<li><a href="#">Contact Us</a></li>
+</ul>
+
+<p><span>Happy School Bag </span> Were all the teachers come to get books <a href="#">More</a></p>
+
+<a href="#"><img src="assets/ad.jpg" alt="Learn more" border="0" /></a></div>
+
+</div>
+</div>
+
+<div id="mainBody3"></div>
+
+<div id="footer">
+
+<ul>
+<li><a href="#">Specials</a>| </li>
+<li><a href="#">Site Search</a>| </li>
+<li><a href="#">Contact Us</a>| </li>
+<li><a href="#">Create an Account</a>| </li>
+<li class="login"><a href="#">Customer Login</a></li>
+</ul>
+
+<p>Copyright &copy; Schoolbag.com</p>
+
+</div>
+
+</body>
+</html>

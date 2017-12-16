@@ -1,0 +1,31 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Erasers</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Eraser</th>
+      <th>Description</th>
+      <th>Price</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @erasers.each do |eraser| %>
+      <tr>
+        <td><%= eraser.eraser_id %></td>
+        <td><%= eraser.description %></td>
+        <td><%= eraser.price %></td>
+        <td><%= link_to 'Show', eraser %></td>
+        <td><%= link_to 'Edit', edit_eraser_path(eraser) %></td>
+        <td><%= link_to 'Destroy', eraser, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Eraser', new_eraser_path %>

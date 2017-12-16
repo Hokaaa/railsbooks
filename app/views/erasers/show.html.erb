@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Eraser:</strong>
+  <%= @eraser.eraser_id %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @eraser.description %>
+</p>
+
+<p>
+  <strong>Price:</strong>
+  <%= @eraser.price %>
+</p>
+
+<%= link_to 'Edit', edit_eraser_path(@eraser) %> |
+<%= link_to 'Back', erasers_path %>
